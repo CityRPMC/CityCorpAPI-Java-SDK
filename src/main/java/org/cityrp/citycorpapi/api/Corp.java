@@ -10,12 +10,12 @@ import java.util.UUID;
 @Setter
 public class Corp {
 
-    private long ID;
+    private long id;
     private String name;
     private UUID owner;
     private CorpType corpType;
     private double balance;
-    private Map<String, Double> valueationBreakdown;
+    private Map<String, Double> valuationBreakdown;
     private double totalValuation;
     private String description;
     private String discordLink;

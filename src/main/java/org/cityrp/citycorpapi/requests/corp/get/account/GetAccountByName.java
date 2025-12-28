@@ -10,7 +10,7 @@ public class GetAccountByName extends Request<CorpAccount> {
 
     public GetAccountByName(Corp corp, String accountName) {
         super("corp/accounts?corp_id=%s&account_name=%s", RequestType.GET, CorpAccount.class);
-        this.replacePathVariables(corp.getID(), accountName);
+        this.replacePathVariables(corp.getId(), accountName);
         this.header(Headers.CONTENT_TYPE, "application/json");
     }
 }

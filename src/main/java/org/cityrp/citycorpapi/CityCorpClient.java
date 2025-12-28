@@ -67,6 +67,7 @@ public class CityCorpClient implements Authorization {
         if (clazz != null) {
             ObjectMapper objectMapper = new ObjectMapper();
             objectMapper.enable(JsonParser.Feature.INCLUDE_SOURCE_IN_LOCATION);
+//            String jsonString = new String(inputStream.readAllBytes());
             E result = objectMapper.readValue(inputStream, (Class<E>) clazz);
             return new Response<>(responseHeaders, connection.getResponseCode(), result);
         }
