@@ -1,4 +1,4 @@
-package org.cityrp.javasdk;
+package org.cityrp.citycorpapi;
 
 public interface Authorization {
 

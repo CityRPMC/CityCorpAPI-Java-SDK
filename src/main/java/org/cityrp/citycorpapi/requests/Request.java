@@ -1,8 +1,8 @@
-package org.cityrp.javasdk.requests;
+package org.cityrp.citycorpapi.requests;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import org.cityrp.javasdk.http.Headers;
+import org.cityrp.citycorpapi.http.Headers;
 
 @Getter
 @AllArgsConstructor

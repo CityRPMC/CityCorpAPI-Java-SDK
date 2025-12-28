@@ -1,4 +1,4 @@
-package org.cityrp.javasdk.requests;
+package org.cityrp.citycorpapi.requests;
 
 public enum RequestType {
 

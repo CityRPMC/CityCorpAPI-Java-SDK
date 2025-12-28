@@ -1,4 +1,4 @@
-package org.cityrp.javasdk.api;
+package org.cityrp.citycorpapi.api;
 
 import lombok.Getter;
 import lombok.Setter;

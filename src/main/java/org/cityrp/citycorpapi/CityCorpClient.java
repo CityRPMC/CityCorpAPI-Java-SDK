@@ -1,13 +1,13 @@
-package org.cityrp.javasdk;
+package org.cityrp.citycorpapi;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Getter;
 import lombok.Setter;
-import org.cityrp.javasdk.http.Headers;
-import org.cityrp.javasdk.http.Response;
-import org.cityrp.javasdk.http.TLSSocketFactory;
-import org.cityrp.javasdk.requests.Request;
+import org.cityrp.citycorpapi.http.Headers;
+import org.cityrp.citycorpapi.http.Response;
+import org.cityrp.citycorpapi.http.TLSSocketFactory;
+import org.cityrp.citycorpapi.requests.Request;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLException;

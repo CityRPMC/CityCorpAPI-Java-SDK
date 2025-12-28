@@ -1,4 +1,4 @@
-package org.cityrp.javasdk.http;
+package org.cityrp.citycorpapi.http;
 
 import javax.net.ssl.*;
 import java.io.IOException;

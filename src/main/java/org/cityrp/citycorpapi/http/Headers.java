@@ -1,4 +1,4 @@
-package org.cityrp.javasdk.http;
+package org.cityrp.citycorpapi.http;
 
 import java.util.HashMap;
 import java.util.Iterator;

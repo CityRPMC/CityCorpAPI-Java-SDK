@@ -1,9 +1,9 @@
-package org.cityrp.javasdk.requests.corp;
+package org.cityrp.citycorpapi.requests.corp;
 
-import org.cityrp.javasdk.api.Corp;
-import org.cityrp.javasdk.http.Headers;
-import org.cityrp.javasdk.requests.Request;
-import org.cityrp.javasdk.requests.RequestType;
+import org.cityrp.citycorpapi.api.Corp;
+import org.cityrp.citycorpapi.http.Headers;
+import org.cityrp.citycorpapi.requests.Request;
+import org.cityrp.citycorpapi.requests.RequestType;
 
 public class GetCorpByName extends Request<Corp> {
 
