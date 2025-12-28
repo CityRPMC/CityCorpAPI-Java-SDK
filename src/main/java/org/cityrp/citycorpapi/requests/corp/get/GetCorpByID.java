@@ -1,4 +1,4 @@
-package org.cityrp.citycorpapi.requests.corp;
+package org.cityrp.citycorpapi.requests.corp.get;
 
 import org.cityrp.citycorpapi.api.Corp;
 import org.cityrp.citycorpapi.http.Headers;
